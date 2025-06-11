@@ -31,9 +31,8 @@ In Week 3, you'll focus on deepening your gameplay by building out the core syst
 - [Basic Enemy AI Tutorial](https://youtu.be/xppompv1DBg?si=5TmXbxQWQVZaqmrd)
 - [NavMesh for 3D Pathfinding](https://youtu.be/CHV1ymlw-P8?si=ZcZR5jASp7sgxVcg)
 - [2D Pathfinding Options](https://www.youtube.com/watch?v=jvtFUfJ6CP8)
-[-What makes a good puzzle](https://youtu.be/zsjC6fa_YBg?si=cMIrEIiC2_6GrU9i)
-
-[-How to get puzzle ideas](https://www.gamedeveloper.com/design/designing-video-game-puzzles)
+- [What makes a good puzzle](https://youtu.be/zsjC6fa_YBg?si=cMIrEIiC2_6GrU9i)
+- [How to get puzzle ideas](https://www.gamedeveloper.com/design/designing-video-game-puzzles)
 
 ### Step 3: Advanced UI & Feedback Systems
 
