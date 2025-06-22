@@ -1,0 +1,155 @@
+/*main div stuff*/
+.AppHolder {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1c2c4c;
+  color: #4c768d;
+  padding-top: 60px;
+}
+
+
+
+/*navigation bar stuff*/
+.nav-bar {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  background-color: #4ecae6;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4ecae6;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 15%;
+  z-index: 1;
+}
+
+.log-out {
+  padding: 5px 10px;
+  right: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid #000000;
+  background-color: #000000;
+  font-weight: 500;
+}
+
+.settings {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid #000000;
+  background-color: #000000;
+  font-weight: 500;
+}
+
+
+/*Contact list ...*/
+.contacts-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  /* min-height: 90vh; */
+  overflow-y: auto;
+  width: 25%;
+  /* background-color: #000000; */
+}
+
+.contact {
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 5px;
+  background-color: #ffffff;
+  color: #1b346b;
+  font-weight: 600;
+}
+
+
+/* chat stuff */
+.messages-wrapper {
+  padding: 20px;
+  padding-bottom: 5px;
+  width: 75%;
+  left: 25%;
+  background-color: #242443;
+  color:#ffffff;
+  margin-bottom: 50px;
+  overflow-y: auto;
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+}
+
+.chat-bubble-left {
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #121928;
+  width: max-content;
+  max-width: calc(100% - 50px);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.chat-bubble-right {
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+  background-color: #73c97d;
+  color: #1c2c4c;
+  width: max-content;
+  max-width: calc(100% - 50px);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+
+/* typebox */
+.typeBox {
+  position: fixed;
+  bottom: 0px;
+  left: 25%;
+  width: 75%;
+  padding: 5px 5px;
+  background-color: #4c768d;
+  display: flex;
+}
+
+.typeBox-input {
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  flex-grow: 1;
+  background-color: white;
+  color: #1c2c4c;
+  font-size: 1rem;
+}
+
+
+.typeBox-button {
+  width: 70px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+  color: #242443;
+  border: 1px solid #7cc5d9;
+  background-color: #7cc5d9;
+  font-weight: 600;
+}
